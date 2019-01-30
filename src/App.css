@@ -1,0 +1,43 @@
+body{
+  margin: 0px;
+}
+#appmain{
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 50px auto;
+}
+#contentmain{
+  min-height: 100vh;
+  grid-row: 2 / span 1;
+  background: white;
+  padding: 150px 50px 50px 50px;
+}
+#commentbarmain{
+  min-height: 100vh;
+  grid-row: 2 / span 1;
+  background: white;
+  padding: 150px 0px 50px 50px;
+}
+.contentpost, .commentpost{
+  background: white;
+  padding: 10px;
+  min-height: 100px;
+}
+#navbarmain{
+  position: fixed;
+  min-height: 60px;
+  width: 300px;
+  background: white;
+  text-align: center;
+}
+#navbarmain > #socialmediawrapper{
+  margin-top: 10px;
+  display: inline-block;
+}
+#navbarmain > #socialmediawrapper > *{
+  margin-left: 10px;
+}
+.socialmediaicons{
+  width: 35px;
+  height: 35px;
+}
